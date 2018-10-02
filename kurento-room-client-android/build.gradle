@@ -24,7 +24,8 @@ android {
 
 dependencies {
     testCompile 'junit:junit:4.12'
-    compile('fi.vtt.nubomedia:jsonrpc-ws-android:1.0.6@aar') { transitive=true }
+    implementation 'com.github.praveshkhatana:jsonrpc-ws-android:-SNAPSHOT'
+    //compile('fi.vtt.nubomedia:jsonrpc-ws-android:1.0.6@aar') { transitive=true }
 }
 
 def siteUrl = 'https://github.com/nubomedia-vtt/kurento-room-client-android'      // Homepage URL of the library
